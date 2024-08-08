@@ -1,0 +1,31 @@
+$primary: #b300df;
+@import "~bootstrap/scss/bootstrap";
+
+.display-one-half {
+  font-size:5.3rem;
+  line-height:1;
+}
+
+.topContainer {
+  min-height:100vh;
+}
+
+.vertical-timeline-element {
+  margin-top: 1rem!important;
+  margin-bottom: 1rem!important;
+}
+
+[data-bs-theme=dark] .dateColor {
+  color: var(--bs-white);
+}
+
+[data-bs-theme=light] .dateColor {
+  color: var(--bs-dark);
+}
+
+// Fix for case where date text collapses onto the timeline elements themselves
+@media (max-width: 1169.98px) {
+  [data-bs-theme=light] .dateColor {
+    color: var(--bs-white);
+  }
+}
