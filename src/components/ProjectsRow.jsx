@@ -18,7 +18,7 @@ const ProjectsRow = () => {
       badge: 'Automation'
     },
     {
-      image: '/company_sample_website.jpg',
+      image: '/company_sample_website.png',
       link: 'https://github.com/kloovin112358/company-sample',
       title: 'Company Sample',
       description: 'Sample front-end design for a company website.',
@@ -39,7 +39,7 @@ const ProjectsRow = () => {
       badge: 'Web'
     },
     {
-      image: '/opening_roulette_website.jpg',
+      image: '/opening_roulette_website.png',
       link: 'https://github.com/kloovin112358/openingRoulette',
       title: 'Chess Opening Roulette',
       description: 'Tool that randomizes chess openings for the user during a game.',
@@ -60,7 +60,7 @@ const ProjectsRow = () => {
       badge: 'Web'
     },
     {
-      image: '/memory_blast_website.jpg',
+      image: '/memory_blast_website.png',
       link: 'https://github.com/kloovin112358/memoryblast',
       title: 'Memory Blast',
       description: 'Tests your short-term recall of displayed integers.',

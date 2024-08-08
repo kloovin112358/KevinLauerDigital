@@ -1,7 +1,7 @@
 import React from 'react';
 
 const StandardCard = () => (
-  <div style={{ width: "17em" }} className="me-2 my-1">
+  <div style={{ width: "18em" }} className="me-2 my-1">
     <div className="card shadow-lg">
       <div className="card-body px-4 py-4 d-flex flex-column justify-content-between align-items-between" style={{ minHeight: "20em" }}>
         <div>
@@ -10,7 +10,7 @@ const StandardCard = () => (
           Making the essential features more refined<br />
         </div>
         <div>
-          <u className="font-monospace">Best for larger apps</u>
+          <u className="font-monospace">Best for larger projects</u>
         </div>
       </div>
     </div>
