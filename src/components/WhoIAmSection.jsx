@@ -11,7 +11,7 @@ const WhoIAmSection = () => {
             <div className="col-0 col-lg-2 d-none d-lg-block">
             <div style={{fontSize:"10rem", lineHeight:"100%"}}><i className="bi bi-chat-dots-fill"></i></div>
             </div>
-            <div className="col col-lg-10 lead fs-4 ps-2 ps-lg-5 pt-4">
+            <div className="col col-lg-10 lead fs-4 ps-2 ps-lg-5 pt-0 pt-lg-4">
             <p className="fw-bold font-monospace ps-2">
             I'm a 23-year-old self-taught developer based out of Chicago, USA
             </p><hr></hr>

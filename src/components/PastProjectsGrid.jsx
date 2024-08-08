@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import ProjectCard from './ProjectCard';
 
-const ProjectsRow = () => {
+const PastProjectsGrid = () => {
 
   const [showElements, setShowElements] = useState(false);
   // Step 2: Toggle visibility when the button is clicked
@@ -112,4 +112,4 @@ const ProjectsRow = () => {
   </>;
 };
 
-export default ProjectsRow;
+export default PastProjectsGrid;

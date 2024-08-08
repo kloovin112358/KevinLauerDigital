@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const ServiceCard = ({ icon, title, description }) => (
+const WhatICanDoCard = ({ icon, title, description }) => (
   <div className="col d-flex align-items-stretch">
     <div className="card shadow-lg mt-4 border border-primary" style={{ minWidth: "270px" }}>
       <div className="card-body p-4">
@@ -13,4 +13,4 @@ const ServiceCard = ({ icon, title, description }) => (
   </div>
 );
 
-export default ServiceCard;
+export default WhatICanDoCard;

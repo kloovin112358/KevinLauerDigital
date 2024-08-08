@@ -15,11 +15,11 @@ import 'react-vertical-timeline-component/style.min.css';
 
 import TopContainer from "./components/TopContainer";
 import MobileTopContainer from "./components/MobileTopContainer";
-import ServiceSection from "./components/ServiceSection";
-import DifferentSection from "./components/DifferentSection";
-import DoneSection from "./components/DoneSection";
+import WhatICanDoSection from "./components/WhatICanDoSection";
+import WhyImDifferentSection from "./components/WhyImDifferentSection";
+import WhatIveDoneSection from "./components/WhatIveDoneSection";
 import WhoIAmSection from "./components/WhoIAmSection";
-import HireMeSection from "./components/HireMeSection";
+import GetAQuoteSection from "./components/GetAQuoteSection";
 
 const getStoredTheme = () => localStorage.getItem('theme');
 const setStoredTheme = theme => localStorage.setItem('theme', theme);
@@ -150,19 +150,19 @@ function App() {
           <MobileTopContainer />
         </section>
         <section>
-          <ServiceSection />
+          <WhatICanDoSection />
         </section>
         <section>
-          <DifferentSection />
+          <WhyImDifferentSection />
         </section>
         <section>
-          <DoneSection />
+          <WhatIveDoneSection />
         </section>
         <section>
           <WhoIAmSection />
         </section>
         <section>
-          <HireMeSection />
+          <GetAQuoteSection />
         </section>
       </Container>
       </main>
