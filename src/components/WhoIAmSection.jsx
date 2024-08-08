@@ -4,7 +4,7 @@ import { Fade } from 'react-awesome-reveal';
 
 const WhoIAmSection = () => {
   return (
-    <div className="pb-3 pb-lg-5 fs-4">
+    <div className="pb-4 pb-lg-5 fs-4">
         <h1 className="fw-bold display-4 mt-3 mt-lg-5" id="am">Who I <span className="text-primary">Am</span></h1>
         <Fade duration={2000} triggerOnce={true}>
         <div className="row">
