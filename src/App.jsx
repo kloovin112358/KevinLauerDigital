@@ -108,7 +108,10 @@ function App() {
           <a className="navbar-brand" href="/">
             <img src={"/Logo.png"} alt={"Kevin Lauer Digital logo"} height="40"></img>
           </a>
-          <Navbar.Toggle aria-controls="basic-navbar-nav"/>
+          <div>
+            <a href="#hire" className="btn btn-success me-lg-1 mb-1 mb-lg-0 d-inline-block d-lg-none">Get a Quote</a>
+            <Navbar.Toggle aria-controls="basic-navbar-nav"/>
+          </div>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link href="#do">What I Can Do</Nav.Link>
@@ -117,7 +120,7 @@ function App() {
               <Nav.Link href="#am">Who I Am</Nav.Link>
             </Nav>
             <Nav>
-              <a href="#hire" className="btn btn-success me-lg-1 mb-1 mb-lg-0">Get a Quote</a>
+            <a href="#hire" className="btn btn-success me-lg-1 mb-1 mb-lg-0 d-none d-lg-inline-block">Get a Quote</a>
             <Button 
               variant="dark"
               onClick={() => handleThemeChange(theme === 'dark' ? 'light' : 'dark')}
