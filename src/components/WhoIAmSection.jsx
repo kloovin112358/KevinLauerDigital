@@ -4,7 +4,7 @@ import { Fade } from 'react-awesome-reveal';
 
 const WhoIAmSection = () => {
   return (
-    <div className="pb-5 fs-4">
+    <div className="pb-3 pb-lg-5 fs-4">
         <h1 className="fw-bold display-4 mt-3 mt-lg-5" id="am">Who I <span className="text-primary">Am</span></h1>
         <Fade duration={2000} triggerOnce={true}>
         <div className="row">
@@ -16,13 +16,13 @@ const WhoIAmSection = () => {
             I'm a 23-year-old self-taught developer based out of Chicago, USA
             </p><hr></hr>
             <ul className="responsive-font-size">
-                <li>During my industrial engineering degree, I taught myself programming out of boredom</li>
-                <li>At my first internship, I started using that knowledge to automate work tasks I didn't want to do</li>
-                <li>I taught myself web development when I wanted to make a video game (<a href="https://github.com/kloovin112358/palabrio">Palabrio</a>)</li>
-                <li>Using that knowledge, I landed a job on a small team at Caterpillar that built web apps supporting manufacturing floor operations</li>
-                <li>By the end of college I was building enhancements for <a href="https://www.uline.com/">uline.com</a>, which sees over $10M in transactions every day</li>
-                <li>During my first full-time job as a tech consultant, I learned how business gets done</li>
-                <li>I quit in August 2024 to pursue entrepreneurship</li>
+              <li>I taught myself programming between classes my freshman year of college</li>
+              <li>At my first internship, I started using that knowledge to automate work tasks I didn't want to do</li>
+              <li>I taught myself web development when I wanted to make a video game (<a href="https://github.com/kloovin112358/palabrio">Palabrio</a>)</li>
+              <li>Using that knowledge, I landed a job on a small team at Caterpillar that built web apps supporting manufacturing floor operations</li>
+              <li>By the end of college I was building enhancements for <a href="https://www.uline.com/">uline.com</a>, which sees over $10M in transactions every day</li>
+              <li>During my first full-time job as a tech consultant, I learned how business gets done</li>
+              <li>I quit in August 2024 to pursue entrepreneurship</li>
             </ul>
             </div>
             
