@@ -18,8 +18,8 @@ function ServiceSection() {
   };
 
   return (
-    <div className="pb-5" id="do">
-    <h1 className="fw-bold display-4 text-center">What I Can <span className="text-primary">Do</span> (for you)</h1>
+    <div className="pb-5">
+    <h1 className="fw-bold display-4 text-center" id="do">What I Can <span className="text-primary">Do</span> (for you)</h1>
     <Fade duration={2000} triggerOnce={true}>
     <div className="row mt-3">
       <ServiceCard 
