@@ -29,3 +29,36 @@ $primary: #b300df;
     color: var(--bs-white);
   }
 }
+
+@media (max-width: 767.98px) {
+  .responsive-font-size{font-size: 19px;}
+}
+
+@media only screen and (max-width: 1169px) {
+  /* .vertical-timeline--animate */
+.vertical-timeline-element-content.bounce-in {
+    visibility: visible;
+    -webkit-animation: cd-bounce-2-inverse 0.6s;
+    -moz-animation: cd-bounce-2-inverse 0.6s;
+    animation: cd-bounce-2-inverse 0.6s;
+  }
+}
+
+.hidden-elements.hidden, .hidden-script-elements.hidden, .hidden-inline-script-elements.hidden {
+  display: none;
+}
+/* Always show elements on larger screens */
+@media (min-width: 992px) {
+  .hidden-elements {
+    display: flex!important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hidden-script-elements {
+    display: flex!important;
+  }
+  .hidden-inline-script-elements {
+    display: inline!important;
+  }
+}

@@ -9,7 +9,7 @@ function RPASample () {
                     <small><i>Note: automating software installations in this manner is likely impractical at a large scale. Example is meant to demo tool capabilities.</i></small>
                 </div>
                 
-                <video src={"/RPA_demo.mp4"} className="object-fit-contain d-block mx-auto" autoPlay controls style={{height:"33rem"}}></video>
+                <video src={"/RPA_demo.mp4"} className="object-fit-contain d-block mx-auto" autoPlay controls style={{maxWidth:"100%", maxHeight:"33rem"}} muted></video>
             </div>
            
         </>

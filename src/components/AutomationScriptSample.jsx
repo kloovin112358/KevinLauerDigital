@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { darcula } from 'react-syntax-highlighter/dist/esm/styles/prism';
 
@@ -151,6 +151,22 @@ const CSVOutputData = [
 ];
 
 function AutomationScriptSample () {
+
+    const [showTXTFileElements, setShowTXTFileElements] = useState(false);
+    const handleTXTFileToggle = () => {
+        setShowTXTFileElements(!showTXTFileElements);
+    };
+
+    const [showPythonElements, setShowPythonElements] = useState(false);
+    const handlePythonToggle = () => {
+        setShowPythonElements(!showPythonElements);
+    };
+
+    const [showCSVOutputElements, setShowCSVOutputElements] = useState(false);
+    const handleCSVOutputToggle = () => {
+        setShowCSVOutputElements(!showCSVOutputElements);
+    };
+
     return (
         <div className="container-fluid">
             <div>
@@ -159,23 +175,24 @@ function AutomationScriptSample () {
                         Messy .txt file export
                     </div>
                     <div className="card-body">
-                        <small>
+                        <small className={`hidden-script-elements ${showTXTFileElements ? '' : 'hidden'}`}>
                             {inputFile}
                         </small>
+                        <button className="d-block d-xl-none btn btn-link mx-auto" onClick={handleTXTFileToggle}>{showTXTFileElements ? 'Hide details' : 'Show details'}</button>
                     </div>
                 </div>
             </div>
             <div className="row mt-2">
-                
                 <div className="col-lg mt-2 mt-lg-0">
                     <div className="card border border-primary">
                         <div className="card-header text-center fw-bold">
                             Python script
                         </div>
                         <div className="card-body">
-                        <SyntaxHighlighter language="python" style={darcula}>
-                            {PythonScript}
-                        </SyntaxHighlighter>
+                            <SyntaxHighlighter language="python" style={darcula} className={`hidden-script-elements ${showPythonElements ? '' : 'hidden'}`}>
+                                {PythonScript}
+                            </SyntaxHighlighter>
+                            <button className="d-block d-xl-none btn btn-link mx-auto" onClick={handlePythonToggle}>{showPythonElements ? 'Hide details' : 'Show details'}</button>
                         </div>
                     </div>
                 </div>
@@ -184,33 +201,36 @@ function AutomationScriptSample () {
                         <div className="card-header text-center fw-bold">
                             CSV output
                         </div>
-                        <div className="card-body"><small>
-                            <div className="table-responsive">
-                                <table className="table table-bordered table-hover">
-                                    <thead className="thead-dark">
-                                        <tr>
-                                            <th>Order ID</th>
-                                            <th>Customer ID</th>
-                                            <th>Customer Name</th>
-                                            <th>Part Number</th>
-                                            <th>Part Description</th>
-                                            <th>Quantity</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        {CSVOutputData.map((row, index) => (
-                                            <tr key={index}>
-                                                <td>{row.orderId}</td>
-                                                <td>{row.customerId}</td>
-                                                <td>{row.customerName}</td>
-                                                <td>{row.partNumber}</td>
-                                                <td>{row.partDescription}</td>
-                                                <td>{row.quantity}</td>
+                        <div className="card-body">
+                            <small className={`hidden-inline-script-elements ${showCSVOutputElements ? '' : 'hidden'}`}>
+                                <div className="table-responsive">
+                                    <table className="table table-bordered table-hover">
+                                        <thead className="thead-dark">
+                                            <tr>
+                                                <th>Order ID</th>
+                                                <th>Customer ID</th>
+                                                <th>Customer Name</th>
+                                                <th>Part Number</th>
+                                                <th>Part Description</th>
+                                                <th>Quantity</th>
                                             </tr>
-                                        ))}
-                                    </tbody>
-                                </table>
-                            </div></small>
+                                        </thead>
+                                        <tbody>
+                                            {CSVOutputData.map((row, index) => (
+                                                <tr key={index}>
+                                                    <td>{row.orderId}</td>
+                                                    <td>{row.customerId}</td>
+                                                    <td>{row.customerName}</td>
+                                                    <td>{row.partNumber}</td>
+                                                    <td>{row.partDescription}</td>
+                                                    <td>{row.quantity}</td>
+                                                </tr>
+                                            ))}
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </small>
+                            <button className="d-block d-xl-none btn btn-link mx-auto" onClick={handleCSVOutputToggle}>{showCSVOutputElements ? 'Hide details' : 'Show details'}</button>
                         </div>
                     </div>
                 </div>

@@ -65,7 +65,7 @@ function ServiceSection() {
             <button role="tab" className={`flex-sm-fill text-sm-center nav-link ${visibleSample === "RPA" ? "active" : ""}`} onClick={() => handleSampleChange("RPA")}>RPA</button>
           </li>
         </ul>
-        <div className="mt-3" style={{height:"40rem", overflowY:"auto"}}>
+        <div className="mt-3" style={{maxHeight:"40rem", overflowY:"auto"}}>
           {visibleSample === "ComplexWebApp" && <ComplexWebAppSample />}
           {visibleSample === "StaticWebsite" && <StaticWebsiteSample />}
           {visibleSample === "AutomationScript" && <AutomationScriptSample />}

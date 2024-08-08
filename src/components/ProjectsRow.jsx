@@ -1,7 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ProjectCard from './ProjectCard';
 
 const ProjectsRow = () => {
+
+  const [showElements, setShowElements] = useState(false);
+  // Step 2: Toggle visibility when the button is clicked
+  const handleToggle = () => {
+    setShowElements(!showElements);
+  };
+
   const projects = [
     {
       image: '/shoopboop_website.jpg',
@@ -69,8 +76,9 @@ const ProjectsRow = () => {
   ];
 
   const rows = [];
+  const extraRows = [];
 
-  for (let i = 0; i < projects.length; i += 3) {
+  for (let i = 0; i < 2; i += 3) {
     rows.push(
       <div className="row" key={i}>
         {projects.slice(i, i + 3).map((project, index) => (
@@ -82,7 +90,26 @@ const ProjectsRow = () => {
     );
   }
 
-  return <>{rows}</>;
+  for (let i = 3; i < projects.length; i += 3) {
+    extraRows.push(
+      <div className={`row hidden-elements ${showElements ? '' : 'hidden'}`} key={i}>
+        {projects.slice(i, i + 3).map((project, index) => (
+          <div className="col d-flex align-items-stretch" key={index}>
+            <ProjectCard {...project} />
+          </div>
+        ))}
+      </div>
+    );
+  }
+
+  return <>
+    {rows}
+    {extraRows}
+    <div className="d-grid d-block d-lg-none mt-2">
+      <button className="btn btn-link" onClick={handleToggle}>{showElements ? 'Hide additional projects' : 'Show more projects'}</button>
+    </div>
+    
+  </>;
 };
 
 export default ProjectsRow;
