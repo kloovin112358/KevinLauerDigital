@@ -8,25 +8,46 @@ function WhatICanDoSection() {
   return (
     <div className="pb-5">
     <h1 className="fw-bold display-4 text-center" id="do">What I Can <span className="text-primary">Do</span> (for you)</h1>
-    <Fade duration={2000} triggerOnce={true}>
-    <div className="row mt-2 mt-lg-3">
-      <WhatICanDoCard 
-        icon="bi-window" 
-        title="Full-Stack Web Development" 
-        description="Complex web apps, static websites, I've got you. Built from scratch or changes to existing sites." 
-      />
-      <WhatICanDoCard 
-        icon="bi-mouse3" 
-        title="Process Automation" 
-        description="Tools to make your life less annoying, like scripts, macros, and RPA." 
-      />
-      <WhatICanDoCard 
-        icon="bi-braces" 
-        title="Miscellaneous" 
-        description="Other digital projects you might have. I might not have the necessary experience, but feel free to ask!" 
-      />
+    <div className="d-none d-lg-block">
+      <Fade duration={2000} triggerOnce={true}>
+        <div className="row mt-2 mt-lg-3">
+          <WhatICanDoCard 
+            icon="bi-window" 
+            title="Full-Stack Web Development" 
+            description="Complex web apps, static websites, I've got you. Built from scratch or changes to existing sites." 
+          />
+          <WhatICanDoCard 
+            icon="bi-mouse3" 
+            title="Process Automation" 
+            description="Tools to make your life less annoying, like scripts, macros, and RPA." 
+          />
+          <WhatICanDoCard 
+            icon="bi-braces" 
+            title="Miscellaneous" 
+            description="Other digital projects you might have. I might not have the necessary experience, but feel free to ask!" 
+          />
+        </div>
+      </Fade>
     </div>
-    </Fade>
+    <div className="d-block d-lg-none">
+      <div className="row mt-2 mt-lg-3">
+        <WhatICanDoCard 
+          icon="bi-window" 
+          title="Full-Stack Web Development" 
+          description="Complex web apps, static websites, I've got you. Built from scratch or changes to existing sites." 
+        />
+        <WhatICanDoCard 
+          icon="bi-mouse3" 
+          title="Process Automation" 
+          description="Tools to make your life less annoying, like scripts, macros, and RPA." 
+        />
+        <WhatICanDoCard 
+          icon="bi-braces" 
+          title="Miscellaneous" 
+          description="Other digital projects you might have. I might not have the necessary experience, but feel free to ask!" 
+        />
+      </div>
+    </div>
     <Fade duration={2000} triggerOnce={true}>
     <div className="text-center mt-5 mb-4">
       <h2 className="fw-bold display-6">How Your Project Could Look</h2>
