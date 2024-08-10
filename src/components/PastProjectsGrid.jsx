@@ -102,14 +102,14 @@ const PastProjectsGrid = () => {
     );
   }
 
-  return <>
+  return <div className="mt-lg-3 mt-2">
     {rows}
     {extraRows}
     <div className="d-grid d-block d-lg-none mt-2">
       <button className="btn btn-link" onClick={handleToggle}>{showElements ? 'Hide additional projects' : 'Show more projects'}</button>
     </div>
     
-  </>;
+  </div>;
 };
 
 export default PastProjectsGrid;

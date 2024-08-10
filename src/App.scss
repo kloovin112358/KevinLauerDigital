@@ -31,10 +31,12 @@ $primary: #b300df;
 }
 
 #getAQuoteSection {padding-bottom: 11rem;}
+#differentHeader {padding-bottom: 0.4rem;}
 
 @media (max-width: 767.98px) {
   .responsive-font-size{font-size: 18px;}
   #getAQuoteSection {padding-bottom: 6rem;}
+  #differentHeader {padding-bottom: 0.8rem;}
 }
 
 .hidden-elements.hidden, .hidden-script-elements.hidden, .hidden-inline-script-elements.hidden {

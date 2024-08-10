@@ -109,7 +109,7 @@ function App() {
             <img src={"/Logo.png"} alt={"Kevin Lauer Digital logo"} height="40"></img>
           </a>
           <div>
-            <a href="#quote" className="btn btn-success me-lg-1 mb-1 mb-lg-0 d-inline-block d-lg-none">Get a Quote</a>
+            <a href="#quote" className="btn btn-success me-1 mb-1 mb-lg-0 d-inline-block d-lg-none">Get a Quote</a>
             <Navbar.Toggle aria-controls="basic-navbar-nav"/>
           </div>
           <Navbar.Collapse id="basic-navbar-nav">
