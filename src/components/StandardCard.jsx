@@ -5,7 +5,7 @@ const StandardCard = () => (
     <div className="card shadow-lg">
       <div className="card-body px-4 py-4 d-flex flex-column justify-content-between align-items-between" style={{ minHeight: "20em" }}>
         <div>
-          <h4>Standard</h4>
+          <p className="h4">Standard</p>
           <span><i>The must-haves, polished</i><hr /></span>
           Making the essential features more refined<br />
         </div>

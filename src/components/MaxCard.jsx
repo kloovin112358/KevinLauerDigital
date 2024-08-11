@@ -9,7 +9,7 @@ const MaxCard = () => (
             <i className="bi bi-window-stack"></i>
           </div>
           <div>
-            <h1 className="pb-0 mb-0 fw-bold display-4">Max</h1>
+            <p className="pb-0 mb-0 fw-bold display-4 h1">Max</p>
             <span className="lead fs-6">Form, function, you name it. I'll really try to impress both you and your clients.</span><br />
           </div>
         </div>

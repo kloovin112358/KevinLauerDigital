@@ -7,9 +7,9 @@ const ProjectCard = ({ image, link, title, description, badge }) => {
         <div className="text-center mb-4">
           <img src={image} className="img-thumbnail" alt={title} />
         </div>
-        <h4 className="fw-bold text-center text-primary">
+        <p className="fw-bold text-center text-primary h4">
           <span className="badge bg-secondary rounded-pill">{badge}</span> <a href={link}>{title}</a>
-        </h4>
+        </p>
         <p className="text-center">
           {description}
         </p>
