@@ -25,7 +25,7 @@ const PastProjectsGrid = () => {
       badge: 'Automation'
     },
     {
-      image: '/company_sample_website.png',
+      image: '/company_sample_website.jpg',
       link: 'https://github.com/kloovin112358/company-sample',
       title: 'Company Sample',
       description: 'Sample front-end design for a company website.',
@@ -46,7 +46,7 @@ const PastProjectsGrid = () => {
       badge: 'Web'
     },
     {
-      image: '/opening_roulette_website.png',
+      image: '/opening_roulette_website.jpg',
       link: 'https://github.com/kloovin112358/openingRoulette',
       title: 'Chess Opening Roulette',
       description: 'Tool that randomizes chess openings for the user during a game.',
@@ -67,7 +67,7 @@ const PastProjectsGrid = () => {
       badge: 'Web'
     },
     {
-      image: '/memory_blast_website.png',
+      image: '/memory_blast_website.jpg',
       link: 'https://github.com/kloovin112358/memoryblast',
       title: 'Memory Blast',
       description: 'Tests your short-term recall of displayed integers.',

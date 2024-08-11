@@ -41,7 +41,7 @@ function StaticWebsiteSample () {
                             <p className="lead">Other services are all fluff, but we don't think that's right.</p>
                         </div>
                         <div className="col-lg-4 mx-auto mt-md-3 text-center">
-                            <img src={"/allec-gomes-unsplash.png"} className="img-thumbnail" alt={"Leaf"} style={{maxHeight:"20rem"}}/>
+                            <img src={"/allec-gomes-unsplash.jpg"} className="img-thumbnail" alt={"Leaf"} style={{maxHeight:"20rem"}} loading="lazy"/>
                         </div>
                     </div>
                     
@@ -53,7 +53,7 @@ function StaticWebsiteSample () {
                     <div className="row mt-5">
                         <div className="col-lg d-flex align-items-stretch">
                             <div className="card">
-                            <img src={"/maggie-ziegler-unsplash.png"} className="img-fluid" alt={"Abstract painting"}/>
+                            <img src={"/maggie-ziegler-unsplash.jpg"} className="img-fluid" alt={"Abstract painting"} loading="lazy"/>
                                 <div className="card-body">
                                     <h2 className="fw-bold">Service 1</h2>
                                     <p>Service 1 allows you to do your work better, and makes it easier to not fail</p>
@@ -62,7 +62,7 @@ function StaticWebsiteSample () {
                         </div>
                         <div className="col-lg d-flex align-items-stretch mt-lg-0 mt-2">
                             <div className="card">
-                                <img src={"/martin-martz-unsplash.png"} className="img-fluid" alt={"Abstract light"}/>
+                                <img src={"/martin-martz-unsplash.jpg"} className="img-fluid" alt={"Abstract light"} loading="lazy"/>
                                 <div className="card-body">
                                     <h2 className="fw-bold">Service 2</h2>
                                     <p>Service 2 gives you the confidence to work without worrying about money</p>
@@ -71,7 +71,7 @@ function StaticWebsiteSample () {
                         </div>
                         <div className="col-lg d-flex align-items-stretch mt-lg-0 mt-2">
                             <div className="card">
-                                <img src={"/zaka-ullah-unsplash.png"} className="img-fluid" alt={"Abstract plants"}/>
+                                <img src={"/zaka-ullah-unsplash.jpg"} className="img-fluid" alt={"Abstract plants"} loading="lazy"/>
                                     <div className="card-body">
                                         <h2 className="fw-bold">Service 3</h2>
                                         <p>Service 3 allows your business to grow without the issues that plague other companies</p>
