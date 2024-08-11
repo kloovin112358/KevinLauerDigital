@@ -167,14 +167,14 @@ function App() {
       </Container>
       </main>
       <footer className="border-top footer bg-body-secondary" style={{zIndex:"999"}}>
-            <div className="container">
-            <div className="pt-3 fs-6" style={{paddingBottom:"8rem"}}>
-                <small className="font-monospace fw-bold">Kevin Lauer Digital</small><hr></hr>
-                <small>Connect with me on <a href="https://www.linkedin.com/in/ktlauer/" className="me-3" style={{textDecoration:"none"}}>LinkedIn <i className="bi bi-linkedin"></i></a></small><br></br>
-                <small>View my full portfolio on <a href="https://github.com/kloovin112358" style={{textDecoration:"none"}}>GitHub <i className="bi bi-github"></i></a></small>
-              </div>
-            </div>
-        </footer>
+        <div className="container">
+          <div className="pt-3 fs-6" style={{paddingBottom:"8rem"}}>
+            <small className="font-monospace fw-bold">Kevin Lauer Digital</small><hr></hr>
+            <small>Connect with me on <a href="https://www.linkedin.com/in/ktlauer/" className="me-3" style={{textDecoration:"none"}}>LinkedIn <i className="bi bi-linkedin"></i></a></small><br></br>
+            <small>View my full portfolio on <a href="https://github.com/kloovin112358" style={{textDecoration:"none"}}>GitHub <i className="bi bi-github"></i></a></small>
+          </div>
+        </div>
+      </footer>
     </>
   );
 }

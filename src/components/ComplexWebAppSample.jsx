@@ -221,7 +221,7 @@ function ComplexWebAppSample() {
                                 <div className="me-3 d-none d-lg-block" style={{minWidth:"15rem"}}>
                                 <div className="card shadow-lg">
                                     <div className="card-body">
-                                    <h6>Sort By</h6>
+                                    <p className="h6">Sort By</p>
                                     <select className="form-control" value={sortBy} onChange={handleSortByChange} id="sortLarge" aria-label="Sort By">
                                         <option value="P">Priority</option>
                                         <option value="O">Oldest First</option>
