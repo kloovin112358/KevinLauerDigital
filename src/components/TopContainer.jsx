@@ -21,7 +21,7 @@ const TopContainer = () => (
           }}
         />
         <Fade delay={7000} duration={2500} triggerOnce={true}>
-          <p className="display-5 pt-3 mx-auto"><i className="bi bi-arrow-down-square" style={{ fontSize: "7rem" }}></i></p>
+          <p className="display-5 pt-3 mx-auto"><a href="#do" className=""><i className="bi bi-arrow-down-square" style={{ fontSize: "7rem" }}></i></a></p>
         </Fade>
       </div>
     </div>

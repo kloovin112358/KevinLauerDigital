@@ -26,7 +26,7 @@ function StaticWebsiteSample () {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-            <div id="staticWebsiteStartDiv" style={{backgroundImage: "url(/jigar-panchal-unsplash-green.jpg)"}}>
+            <div id="staticWebsiteStartDiv" style={{backgroundImage: "url(/jigar-panchal-unsplash-green1.jpg)"}}>
                 <div className="py-lg-5">
                     <div className="container p-5">
                     <h1 className="display-1 fw-bold text-white px-lg-5">Company branding message slogan.</h1>

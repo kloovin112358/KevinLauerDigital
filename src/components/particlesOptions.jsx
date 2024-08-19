@@ -112,7 +112,7 @@ export const darkParticlesOptions = {
 export const lightParticlesOptions = {
     particles: {
         number: {
-            value: 140,
+            value: 80,
             "density": {
               "enable": true,
               "value_area": 789.1476416322727
