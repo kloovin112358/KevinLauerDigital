@@ -1,6 +1,6 @@
 import React from 'react';
 import { Accordion } from 'react-bootstrap';
-import { Fade, JackInTheBox } from 'react-awesome-reveal';
+import { JackInTheBox } from 'react-awesome-reveal';
 
 const TechnologySummary = () => {
   return (

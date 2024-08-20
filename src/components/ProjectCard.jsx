@@ -1,5 +1,5 @@
 import React from 'react';
-import { Fade, Zoom } from 'react-awesome-reveal';
+import { Zoom } from 'react-awesome-reveal';
 
 const ProjectCard = ({ image, link, title, description, badge }) => {
   return (

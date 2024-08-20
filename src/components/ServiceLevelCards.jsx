@@ -2,7 +2,7 @@ import React from 'react';
 import MinimalistCard from './MinimalistCard';
 import StandardCard from './StandardCard';
 import MaxCard from './MaxCard';
-import { Fade, Zoom, Slide } from 'react-awesome-reveal';
+import { Zoom, Slide } from 'react-awesome-reveal';
 
 const ServiceLevelCards = () => (
   <div className="text-center mt-5 mb-3">

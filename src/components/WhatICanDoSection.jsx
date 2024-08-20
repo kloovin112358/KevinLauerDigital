@@ -1,7 +1,7 @@
 import React from 'react';
 import WhatICanDoCard from './WhatICanDoCard';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Fade, JackInTheBox, Zoom, Rotate, Hinge, AttentionSeeker } from 'react-awesome-reveal';
+import { Zoom, AttentionSeeker } from 'react-awesome-reveal';
 import HowYourProjectCouldLook from './HowYourProjectCouldLook';
 
 function WhatICanDoSection() {
