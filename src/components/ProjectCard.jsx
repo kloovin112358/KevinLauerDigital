@@ -1,9 +1,11 @@
 import React from 'react';
+import { Fade, Zoom } from 'react-awesome-reveal';
 
 const ProjectCard = ({ image, link, title, description, badge }) => {
   return (
     <div className="card shadow-lg mt-4 border border-primary" style={{ minWidth: '300px' }}>
       <div className="card-body p-4">
+        <Zoom duration={500}>
         <div className="text-center mb-4">
           <img src={image} className="img-thumbnail" alt={title} loading="lazy" />
         </div>
@@ -13,6 +15,7 @@ const ProjectCard = ({ image, link, title, description, badge }) => {
         <p className="text-center">
           {description}
         </p>
+        </Zoom>
       </div>
     </div>
   );

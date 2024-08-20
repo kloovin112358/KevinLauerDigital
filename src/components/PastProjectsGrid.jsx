@@ -83,7 +83,7 @@ const PastProjectsGrid = () => {
       <div className="row" key={i}>
         {projects.slice(i, i + 3).map((project, index) => (
           <div className="col d-flex align-items-stretch" key={index}>
-            <ProjectCard {...project} />
+              <ProjectCard {...project} />
           </div>
         ))}
       </div>

@@ -1,17 +1,17 @@
 import React from 'react';
 import { Accordion } from 'react-bootstrap';
-import { Fade } from 'react-awesome-reveal';
+import { Fade, JackInTheBox } from 'react-awesome-reveal';
 
 const TechnologySummary = () => {
   return (
     <>
-          <Fade duration={2000} triggerOnce={true}>
-      <div className="text-center mt-5 mb-3">
-            <h2 className="fw-bold display-6">Technology Summary</h2>
+        <JackInTheBox>
+        <div className="text-center mt-5 mb-3">
+            <h2 className="fw-bold display-6 beforeSubHeader">Technology Summary</h2>
             <p className="font-monospace fs-4">Click the rows below to expand.</p>
         </div>
-        </Fade>
-        <Fade duration={2000} triggerOnce={true}>
+        </JackInTheBox>
+        <JackInTheBox>
         <div className="card mt-4 shadow-lg border border-primary mx-auto" style={{maxWidth:"40rem"}}>
             <div className="card-body">
             <div>
@@ -105,7 +105,7 @@ const TechnologySummary = () => {
             </Accordion>
             </div>
         </div>  
-        </Fade>
+        </JackInTheBox>
     </>
   );
 };
