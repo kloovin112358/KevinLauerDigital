@@ -15,9 +15,9 @@ const WhatICanDoCard = ({ icon, title, description, animationType, animationDire
   };
 
   return (
-    <div className="col d-flex align-items-stretch">
+    <div className="me-0 me-md-2 my-1">
       <AnimationComponent>
-        <div className="card shadow-lg mt-4 border border-primary" style={{ minWidth: "270px" }}>
+        <div className="card shadow-lg border border-primary whatICanDoCard">
           <div className="card-body p-4">
             <div className="text-center mb-4">
               <i className={`bi ${icon} display-1 fw-bold`} style={{ fontSize: "10em" }}></i>

@@ -10,7 +10,7 @@ function WhatICanDoSection() {
     <AttentionSeeker effect={"pulse"}>
     <h1 className="fw-bold display-4 text-center" id="do">What I Can <span className="text-primary">Do</span> (for you)</h1>
     </AttentionSeeker>
-    <div className="row mt-2 mt-lg-3">
+    <div className="mt-3 mt-lg-4 d-flex justify-content-center flex-wrap">
       <WhatICanDoCard 
         icon="bi-window" 
         title="Full-Stack Web Development" 

@@ -82,7 +82,7 @@ const PastProjectsGrid = () => {
     rows.push(
       <div className="row" key={i}>
         {projects.slice(i, i + 3).map((project, index) => (
-          <div className="col d-flex align-items-stretch" key={index}>
+          <div className="col d-flex align-items-stretch justify-content-center" key={index}>
               <ProjectCard {...project} />
           </div>
         ))}
@@ -94,7 +94,7 @@ const PastProjectsGrid = () => {
     extraRows.push(
       <div className={`row hidden-elements ${showElements ? '' : 'hidden'}`} key={i}>
         {projects.slice(i, i + 3).map((project, index) => (
-          <div className="col d-flex align-items-stretch" key={index}>
+          <div className="col d-flex align-items-stretch justify-content-center" key={index}>
             <ProjectCard {...project} />
           </div>
         ))}

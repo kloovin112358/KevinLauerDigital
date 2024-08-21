@@ -33,12 +33,14 @@ $primary: #C400F5;
 #getAQuoteSection {padding-bottom: 11rem;}
 #differentHeader {padding-bottom: 0.4rem;}
 .beforeSubHeader {margin-top: 10rem}
+.whatICanDoCard {width: 25rem}
 
 @media (max-width: 767.98px) {
   .responsive-font-size{font-size: 18px;}
   #getAQuoteSection {padding-bottom: 6rem;}
   #differentHeader {padding-bottom: 0.8rem;}
   .beforeSubHeader {margin-top: 5rem}
+  .whatICanDoCard {width: auto!important}
 }
 
 .hidden-elements.hidden, .hidden-script-elements.hidden, .hidden-inline-script-elements.hidden {
