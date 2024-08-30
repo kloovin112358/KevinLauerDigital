@@ -75,7 +75,10 @@ const TechnologySummary = () => {
                         <span className='fw-bold'>Frontend:</span> <span className="badge bg-success rounded-pill">React <i className="bi bi-filetype-jsx"></i></span> <span className="badge bg-success rounded-pill">HTML <i className="bi bi-filetype-html"></i></span> <span className="badge bg-success rounded-pill">CSS <i className="bi bi-filetype-css"></i></span> <span className="badge bg-primary rounded-pill">SASS <i className="bi bi-filetype-sass"></i></span> <span className="badge bg-success rounded-pill">Bootstrap <i className="bi bi-bootstrap"></i></span> <span className="badge bg-warning text-dark rounded-pill">Tailwind CSS</span> <span className="badge bg-success rounded-pill">JQuery</span> <span className="badge bg-success rounded-pill">AJAX</span>
                     </li>
                     <li className='list-group-item'>
-                        <span className='fw-bold'>Miscellaneous:</span> <span className="badge bg-warning text-dark rounded-pill">Heroku</span> <span className="badge bg-primary rounded-pill">REST APIs</span> <span className="badge bg-primary rounded-pill">WebSockets</span>
+                        <span className='fw-bold'>Hosting:</span> <span className="badge bg-warning text-dark rounded-pill">Netlify</span> <span className="badge bg-warning text-dark rounded-pill">Render</span> <span className="badge bg-warning text-dark rounded-pill">Heroku</span> 
+                    </li>
+                    <li className='list-group-item'>
+                        <span className='fw-bold'>Miscellaneous:</span> <span className="badge bg-primary rounded-pill">REST APIs</span> <span className="badge bg-primary rounded-pill">WebSockets</span>
                     </li>
                     </ul>
                 </Accordion.Body>
