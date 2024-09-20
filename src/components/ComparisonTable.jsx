@@ -1,8 +1,6 @@
 import React from 'react';
-import { Fade } from 'react-awesome-reveal';
 
 const ComparisonTable = () => (
-  <Fade duration={2000} triggerOnce={true}>
   <div className="card shadow-lg border border-primary mx-auto mt-2 mt-lg-4" style={{maxWidth:"60rem"}}>
     <div className="card-body">
       <table className="table table-striped">
@@ -49,7 +47,6 @@ const ComparisonTable = () => (
       </table>
     </div>
   </div>
-  </Fade>
 );
 
 export default ComparisonTable;
