@@ -3,8 +3,10 @@ import React, { useEffect, useState } from 'react';
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { darkParticlesOptions, lightParticlesOptions } from './particlesOptions';
 import { loadSlim } from "@tsparticles/slim";
+import { useAnimation } from '../AnimationContext'; // Use the animation context
 
 const ParticlesBackground = ({ theme }) => {
+  const isXlScreen = useAnimation();
     const [init, setInit] = useState(false);
 
   // this should be run only once per application lifetime
@@ -28,13 +30,18 @@ const ParticlesBackground = ({ theme }) => {
 
 
   if (init) {
-    return (
-      <Particles
-        id="tsparticles"
-        particlesLoaded={particlesLoaded}
-        options={theme === 'dark' ? darkParticlesOptions : lightParticlesOptions}
-      />
-    );
+    if (theme === "light" && !isXlScreen) {
+      return <></>
+    } else {
+      return (
+        <Particles
+          id="tsparticles"
+          particlesLoaded={particlesLoaded}
+          options={theme === 'dark' ? darkParticlesOptions : lightParticlesOptions}
+        />
+      );
+    }
+    
   }
 
   return <></>;
