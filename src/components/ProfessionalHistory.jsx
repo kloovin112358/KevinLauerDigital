@@ -16,6 +16,17 @@ const ProfessionalHistory = () => {
         <VerticalTimeline className="mt-3 mb-5" layout={'2-columns'} lineColor={"lightgrey"}>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
+              contentStyle={{ background: '#a300cc', color: '#fff' }}
+              contentArrowStyle={{ borderRight: '7px solid  #a300cc' }}
+              date="August 2024 - Present"
+              dateClassName={ "dateColor" }
+              iconStyle={{ background: '#a300cc', color: '#fff' }}
+            >
+              <h3 className="vertical-timeline-element-title"><strong>Freelance Software Developer</strong></h3>
+              <h5 className="vertical-timeline-element-subtitle mt-2 font-monospace"><strong>Kevin Lauer Digital</strong> | Chicago, IL</h5>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
               contentStyle={{ background: '#8c8c8c', color: '#fff' }}
               contentArrowStyle={{ borderRight: '7px solid #8c8c8c' }}
               date="January 2023 - August 2024"

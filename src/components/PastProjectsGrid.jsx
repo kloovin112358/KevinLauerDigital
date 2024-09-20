@@ -11,24 +11,24 @@ const PastProjectsGrid = () => {
 
   const projects = [
     {
+      image: '/sanctorum.jpg',
+      link: 'https://sanctorum-podcast.netlify.app/',
+      title: 'Sanctorum Podcast',
+      description: "Static site for a client's podcast, utilizing Three.js, GSAP animations and Decap CMS.",
+      badge: 'Web'
+    },
+    {
+      image: '/kitchensink.jpg',
+      link: 'https://kitchen-sink-static.netlify.app/',
+      title: 'The Kitchen Sink',
+      description: 'A sample static site with light/dark mode, translations in 3 languages, and GSAP animations.',
+      badge: 'Web'
+    },
+    {
       image: '/shoopboop_website.jpg',
       link: 'https://github.com/kloovin112358/ShoopBoop',
       title: 'ShoopBoop',
       description: 'Twitter-like social media application where “likes” can only be given after solving Captcha puzzles.',
-      badge: 'Web'
-    },
-    {
-      image: '/chipublibsearch_automation.jpg',
-      link: 'https://github.com/kloovin112358/ChiPubLibSearch',
-      title: 'ChiPubLib Search',
-      description: 'Searches local Chicago Public Library branch for available books from “to-read” Goodreads list',
-      badge: 'Automation'
-    },
-    {
-      image: '/company_sample_website.jpg',
-      link: 'https://github.com/kloovin112358/company-sample',
-      title: 'Company Sample',
-      description: 'Sample front-end design for a company website.',
       badge: 'Web'
     },
     {
@@ -39,10 +39,24 @@ const PastProjectsGrid = () => {
       badge: 'Web'
     },
     {
+      image: '/chipublibsearch_automation.jpg',
+      link: 'https://github.com/kloovin112358/ChiPubLibSearch',
+      title: 'ChiPubLib Search',
+      description: 'Searches local Chicago Public Library branch for available books from “to-read” Goodreads list',
+      badge: 'Automation'
+    },
+    {
       image: '/palabrio_website.jpg',
       link: 'https://github.com/kloovin112358/palabrio',
       title: 'Palabrio',
       description: 'Text-based party game where players create a story out of randomly-generated words.',
+      badge: 'Web'
+    },
+    {
+      image: '/cryptofeet.jpg',
+      link: 'https://github.com/kloovin112358/ModernCompanySiteWithImages',
+      title: 'Crypto Feet',
+      description: 'Modern company site sample with gradients, images, and a goofy theme.',
       badge: 'Web'
     },
     {
@@ -53,26 +67,12 @@ const PastProjectsGrid = () => {
       badge: 'Web'
     },
     {
-      image: '/country_generator_website.jpg',
-      link: 'https://github.com/kloovin112358/countryGenerator',
-      title: 'Country Generator',
-      description: 'Randomly generates countries based on probability of being born there.',
+      image: '/tailwind_sample.jpg',
+      link: 'https://github.com/kloovin112358/TailwindCSSTest',
+      title: "NFT Pots 'N Pans",
+      description: 'Sample company website built with Tailwind CSS, using SVG illustrations and a goofy theme.',
       badge: 'Web'
     },
-    {
-      image: '/extension_quiz_website.jpg',
-      link: 'https://github.com/kloovin112358/extensionQuiz',
-      title: 'Extension Quiz',
-      description: 'Tests your knowledge of various file extensions.',
-      badge: 'Web'
-    },
-    {
-      image: '/memory_blast_website.jpg',
-      link: 'https://github.com/kloovin112358/memoryblast',
-      title: 'Memory Blast',
-      description: 'Tests your short-term recall of displayed integers.',
-      badge: 'Web'
-    }
   ];
 
   const rows = [];
