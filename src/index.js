@@ -4,11 +4,14 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "@fontsource/open-sans";
 import "./App.scss";
+import { AnimationProvider } from "./AnimationContext"; // Import the provider
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <AnimationProvider>
+      <App />
+    </AnimationProvider>
   </React.StrictMode>
 );
 

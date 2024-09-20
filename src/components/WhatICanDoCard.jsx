@@ -1,10 +1,15 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Slide, Zoom } from 'react-awesome-reveal';
+import { useAnimation } from '../AnimationContext'; // Use the animation context
 
 const WhatICanDoCard = ({ icon, title, description, animationType, animationDirection }) => {
+  const isXlScreen = useAnimation();
   // Select the appropriate animation component based on the animationType prop
   const AnimationComponent = ({ children }) => {
+    if (!isXlScreen) {
+      return <>{children}</>
+    }
     switch (animationType) {
       case 'Slide':
         return <Slide direction={animationDirection}>{children}</Slide>;
