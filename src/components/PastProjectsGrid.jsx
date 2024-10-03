@@ -11,10 +11,24 @@ const PastProjectsGrid = () => {
 
   const projects = [
     {
+      image: '/theperfectstripe.jpg',
+      link: 'https://theperfectstripe.com/',
+      title: 'The Perfect Stripe',
+      description: "Static site for a client's small business, utilizing Bootstrap, stock images, and background patterns.",
+      badge: 'Web'
+    },
+    {
       image: '/sanctorum.jpg',
-      link: 'https://sanctorum-podcast.netlify.app/',
+      link: 'https://sanctorumpodcast.com/',
       title: 'Sanctorum Podcast',
       description: "Static site for a client's podcast, utilizing Three.js, GSAP animations and Decap CMS.",
+      badge: 'Web'
+    },
+    {
+      image: '/ledgestone_website.jpg',
+      link: 'https://shopledgestone.com/',
+      title: 'Ledgestone Disc Golf*',
+      description: 'Supported Shopify upgrade for ecommerce site. *Note: I did not build the site core.',
       badge: 'Web'
     },
     {
@@ -32,25 +46,11 @@ const PastProjectsGrid = () => {
       badge: 'Web'
     },
     {
-      image: '/ledgestone_website.jpg',
-      link: 'https://shopledgestone.com/',
-      title: 'Ledgestone Disc Golf*',
-      description: 'Supported Shopify upgrade for ecommerce site. *Note: I did not build the core of the site',
-      badge: 'Web'
-    },
-    {
       image: '/chipublibsearch_automation.jpg',
       link: 'https://github.com/kloovin112358/ChiPubLibSearch',
       title: 'ChiPubLib Search',
       description: 'Searches local Chicago Public Library branch for available books from “to-read” Goodreads list',
       badge: 'Automation'
-    },
-    {
-      image: '/palabrio_website.jpg',
-      link: 'https://github.com/kloovin112358/palabrio',
-      title: 'Palabrio',
-      description: 'Text-based party game where players create a story out of randomly-generated words.',
-      badge: 'Web'
     },
     {
       image: '/cryptofeet.jpg',
@@ -60,18 +60,18 @@ const PastProjectsGrid = () => {
       badge: 'Web'
     },
     {
-      image: '/opening_roulette_website.jpg',
-      link: 'https://github.com/kloovin112358/openingRoulette',
-      title: 'Chess Opening Roulette',
-      description: 'Tool that randomizes chess openings for the user during a game.',
+      image: '/palabrio_website.jpg',
+      link: 'https://github.com/kloovin112358/palabrio',
+      title: 'Palabrio',
+      description: 'Text-based party game where players create a story out of randomly-generated words.',
       badge: 'Web'
     },
     {
-      image: '/tailwind_sample.jpg',
-      link: 'https://github.com/kloovin112358/TailwindCSSTest',
-      title: "NFT Pots 'N Pans",
-      description: 'Sample company website built with Tailwind CSS, using SVG illustrations and a goofy theme.',
-      badge: 'Web'
+      image: '/apartmentsfastfilter.jpg',
+      link: 'https://chromewebstore.google.com/detail/fast-filter-chicago-apart/ialcjmolcjcbgbkmdlfjofmpodcgefpa',
+      title: 'Apts Fast Filter',
+      description: 'Builds search URLs based on basic filters, integrating with 13 apartment listing sites.',
+      badge: 'Extension'
     },
   ];
 
